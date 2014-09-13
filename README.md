@@ -127,5 +127,5 @@ SHELL SCRIPT
 
 The command to extract a shell script (cf jenkins) from this README.md is:
 
-     curl -sfL "http://gitlab.os.gov.pf/root/chef/raw/master/README.md"| grep "^\$ "| sed -e 's/^\$ //'
+     curl -sfL "https://raw.githubusercontent.com/peychart/os-bootstrap/master/README.md"| grep "^\$ "| sed -e 's/^\$ //'
 
