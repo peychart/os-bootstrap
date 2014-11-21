@@ -26,7 +26,7 @@ do case "$opt" in
        printhlp "eg.   $MYNAME -c my_community /tftpboot"
        printhlp
        printhlp "or:   curl -sfH \"X-Auth-Token: <X_Auth_Token>\" \\"
-       printhlp "           http://swiftauth:8080/v1/AUTH_system/os-bootstrap/$MYNAME \\"
+       printhlp "           <X-Storage-Url>/os-bootstrap/$MYNAME \\"
        printhlp "        | bash -s -- -c my_community /tftpboot"
        printhlp
        printhlp "from: curl -is -H \"X-Auth-User: system:root\" \\"

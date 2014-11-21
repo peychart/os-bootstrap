@@ -27,7 +27,7 @@ do case "$opt" in
        printhlp "syntaxe: $MYNAME [ <git_url_for_cloudfuse> (default is https://github.com/redbo/cloudfuse.git) ]"
        printhlp
        printhlp "eg.   curl -sfH \"X-Auth-Token: <X_Auth_Token>\" \\"
-       printhlp "           http://swiftauth:8080/v1/AUTH_system/os-bootstrap/$MYNAME \\"
+       printhlp "          <X-Storage-Url>/os-bootstrap/$MYNAME \\"
        printhlp "        | bash -s -- <git_url_for_cloudfuse>"
        printhlp
        printhlp "from: curl -is -H \"X-Auth-User: system:root\" \\"

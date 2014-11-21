@@ -27,7 +27,7 @@ do case "$opt" in
        printhlp
        printhlp "eg.   $MYNAME -u gitlab.os.gov.pf \\"
        printhlp "        -t <X_Auth_Token> \\"
-       printhlp "        -s http://swiftauth:8080/v1/AUTH_system/repository/archives/ubuntu-14.04/gitlab_7.0.0-omnibus-1_amd64.deb \\"
+       printhlp "        -s <X-Storage-Url>/repository/archives/ubuntu-14.04/gitlab_7.0.0-omnibus-1_amd64.deb \\"
        printhlp "        <X_Storage_Url>"
        printhlp
        printhlp "or:   curl -sfH \"X-Auth-Token: <X_Auth_Token>\" \\"
